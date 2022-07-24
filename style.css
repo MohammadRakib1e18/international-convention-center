@@ -3,4 +3,13 @@ img{
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid gray;
+    opacity: 0.8;
+}
+.slider-text{
+    color: rgb(11, 29, 26);
+}
+.slider-text p{
+    color:rgb(7, 12, 51);
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
