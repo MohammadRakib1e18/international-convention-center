@@ -1,15 +1,33 @@
-img{
-    height: 90vh;
+#slide1 {
+    background: rgba(0, 0, 0, 0.384) url("images/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#slide2 {
+    background: rgba(0, 0, 0, 0.384) url("images/furniture2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#slide3 {
+    background: rgba(0, 0, 0, 0.384) url("images/furniture3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+img {
+    height: 80vh;
+    width: 100%;
     object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid gray;
-    opacity: 0.8;
+    opacity: 0.9;
 }
-.slider-text{
-    color: rgb(11, 29, 26);
-}
-.slider-text p{
-    color:rgb(7, 12, 51);
+
+.slider-text p {
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
