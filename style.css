@@ -3,6 +3,9 @@ body {
     padding: 0;
     border: 0;
 }
+p, .accordion-body{
+    text-align: justify;
+}
 #slide1 {
     background: rgba(0, 0, 0, 0.384) url("images/banner.png");
     background-position: center;
@@ -25,7 +28,7 @@ body {
     background-blend-mode: darken;
 }
 
-img {
+.carousel img {
     height: 80vh;
     width: 100%;
     object-fit: cover;
