@@ -52,6 +52,15 @@ img {
     height: 100px;
 }
 
+.accordion-button{
+    background-color: rgba(99, 95, 95, 0.103);
+}
+
+.accordion-body{
+    background-image: linear-gradient(rgba(75, 74, 74, 0.281), rgba(117, 115, 115, 0.123));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 /* ----------------------------footer section------------------------------------- */
 footer {
     background-color: #282c2f;
