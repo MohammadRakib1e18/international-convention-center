@@ -3,8 +3,21 @@ body {
     padding: 0;
     border: 0;
 }
+
+.container, footer{
+    margin-top:10%;
+}
+
+
+.carousel{
+    margin-top:2%;
+}
+
 p, .accordion-body{
     text-align: justify;
+}
+.special-package-card p{
+    text-align: left;
 }
 #slide1 {
     background: rgba(0, 0, 0, 0.384) url("images/banner.png");
@@ -43,7 +56,7 @@ p, .accordion-body{
 /* toast */
 .toast{
     position: absolute;
-    top: 10%;
+    top: 0%;
     right: -15%;
     border:0;
     width:30%;
@@ -52,6 +65,31 @@ p, .accordion-body{
 }
 .toast img{
     width: 20px;
+}
+
+
+/* prizing */
+
+.custom-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item i{
+    background-color: rgba(195, 195, 243, 0.575);
+    border-radius: 50%;
+    color:rgba(0, 0, 255, 0.781);
+    padding: 2px;
+    font-size:12px;
+}
+
+.package-card{
+    width:24%;
+    border-bottom: 2px solid rgba(46, 2, 2, 0.233);
+}
+
+.special-package-card{
+    height: 60vh;
 }
 
 /* --------------------------------happy client says ------------------------ */

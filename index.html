@@ -26,7 +26,7 @@
         <!----------------------- navbar ------------------------->
 
         <nav
-            class="navbar navbar-expand-lg navbar-dark bg-dark"
+            class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
             aria-label="Offcanvas navbar large"
         >
             <div class="container-fluid">
@@ -109,7 +109,6 @@
                 slide
                 w-75
                 mx-auto
-                mt-5
                 border-start border-end border-4 border-dark
                 rounded-3
             "
@@ -230,7 +229,7 @@
         </div>
 
         <!-------------------- Enjoy Every Moment ----------------------->
-        <div class="row container w-75 p-0 mt-5 mx-auto position-relative">
+        <div class="row container w-75 p-0 mx-auto position-relative">
             <div class="d-flex col-md-6 p-0 align-items-center">
                 <img class="img-thumbnail" src="images/wedding.png" alt="" />
             </div>
@@ -263,38 +262,172 @@
                     Explore our album<i class="fas fa-arrow-right ms-3"></i>
                 </button>
                 <!-- Toast -->
-            <div
-            class="show toast align-items-center rounded-0"
-            role="alert"
-            aria-live="assertive"
-            aria-atomic="true"
-        >
-            <div class="d-flex">
-                <div class="toast-body  d-flex ">
-                    <img src="icons/Vector.svg" class="me-2" />
-                    <p class="text-dark fw-bold mb-0">20% off on next booking</p>
+                <div
+                    class="show toast align-items-center rounded-0"
+                    role="alert"
+                    aria-live="assertive"
+                    aria-atomic="true"
+                >
+                    <div class="d-flex">
+                        <div class="toast-body d-flex">
+                            <img src="icons/Vector.svg" class="me-2" />
+                            <p class="text-dark fw-bold mb-0">
+                                20% off on next booking
+                            </p>
+                        </div>
+                        <button
+                            type="button"
+                            class="btn-close me-2 m-auto"
+                            data-bs-dismiss="toast"
+                            aria-label="Close"
+                        ></button>
+                    </div>
                 </div>
-                <button
-                    type="button"
-                    class="btn-close me-2 m-auto"
-                    data-bs-dismiss="toast"
-                    aria-label="Close"
-                ></button>
             </div>
         </div>
+
+        <!-- -------------------------Our Package section---------------- -->
+        <div class="container w-75 p-0 mx-auto">
+            <h2 class="text-center fw-bold fs-1 text-secondary">Our Package</h2>
+            <div class="row mt-5 justify-content-between">
+                <div class="package-card pt-5 col-md-3">
+                    <h1 class="fw-bolder fs-1">$300</h1>
+                    <h3 class="fw-bolder fs-2">Business fair</h3>
+                    <p class="text-secondary">
+                        For most businesses event like book fair, craft fair.
+                    </p>
+                    <ul class="custom-list">
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>limited space
+                            access
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Secuirty facility
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>event support
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Decoration design
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Per day bill
+                        </li>
+                    </ul>
+                </div>
+                <div class="package-card pt-5 col-md-3">
+                    <h1 class="fw-bolder fs-1">$500</h1>
+                    <h3 class="fw-bolder fs-2">Wedding basic</h3>
+                    <p class="text-secondary">
+                        For weddings with basic plan and limited item
+                    </p>
+                    <ul class="custom-list">
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Full space access
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Food arrangement
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>mangement support
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Decoration design
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Billed as shift
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="
+                        package-card
+                        special-package-card
+                        col-md-3
+                        shadow-lg
+                        position-relative
+                        bg-primary
+                        text-light
+                        rounded-5
+                        ps-3
+                    "
+                >
+                    <h1 class="fw-bolder fs-1">$800</h1>
+                    <h3 class="fw-bolder fs-2">Wedding Plus</h3>
+                    <p>For most weddings with premium plans</p>
+                    <ul class="custom-list">
+                        <li class="list-item">
+                            <i class="fas fa-check me-3 text-dark"></i>Full
+                            space access
+                        </li>
+                        <li class="list-item">
+                            <i class="fas fa-check me-3 text-dark"></i>Dedicated
+                            team
+                        </li>
+                        <li class="list-item">
+                            <i class="fas fa-check me-3 text-dark"></i>Buffet
+                            food
+                        </li>
+                        <li class="list-item">
+                            <i class="fas fa-check me-3 text-dark"></i>premium
+                            Decoration
+                        </li>
+                        <li class="list-item">
+                            <i class="fas fa-check me-3 text-dark"></i>pay as
+                            plan
+                        </li>
+                    </ul>
+                    <span
+                        class="
+                            position-absolute
+                            top-0
+                            start-100
+                            translate-middle
+                            badge
+                            rounded-pill
+                            bg-danger
+                        "
+                    >
+                        Hot
+                    </span>
+                </div>
+                <div class="package-card pt-5 col-md-3">
+                    <h1 class="fw-bolder fs-1">$1200</h1>
+                    <h3 class="fw-bolder fs-2">Special event</h3>
+                    <p class="text-secondary">
+                        For most corporate business events
+                    </p>
+                    <ul class="custom-list">
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Full space access
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Dedicated team
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>Buffet food
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>premium Decoration
+                        </li>
+                        <li class="list-item text-secondary">
+                            <i class="fas fa-check me-3"></i>pay as plan
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
         </div>
 
         <!-- -------------------------happy client section---------------- -->
-        <div class="container w-75 p-0 mt-5">
+        <div class="container w-75 p-0">
             <h2 class="text-center fw-bold fs-1 text-secondary">
                 Happy Clients says
             </h2>
             <div class="row mt-5 mx-auto justify-content-between">
                 <div class="col-md-4 card text-center shadow-lg">
-                    <div class="single-card-img order-2 mb-3">
+                    <div class="order-2 mb-3">
                         <img src="images/person 1.png" alt="..." />
+                        <p class="text-center mb-0 text-secondary">Artist</p>
                     </div>
                     <div class="card-body order-1 text-center">
                         <h5 class="card-title">Card title</h5>
@@ -311,8 +444,11 @@
                     </p>
                 </div>
                 <div class="col-md-4 card text-center shadow-lg">
-                    <div class="single-card-img order-2 mb-3">
+                    <div class="order-2 mb-3">
                         <img src="images/person 2.png" alt="..." />
+                        <p class="text-center mb-0 text-secondary">
+                            Web Developer
+                        </p>
                     </div>
                     <div class="card-body order-1 text-center">
                         <h5 class="card-title">Card title</h5>
@@ -328,8 +464,9 @@
                     </p>
                 </div>
                 <div class="col-md-4 card text-center shadow-lg">
-                    <div class="single-card-img order-2 mb-3">
+                    <div class="order-2 mb-3">
                         <img src="images/person 3.png" alt="..." />
+                        <p class="text-center mb-0 text-secondary">Singer</p>
                     </div>
 
                     <div class="card-body order-1">
@@ -351,7 +488,7 @@
         </div>
 
         <!------------------Frequently Asked Questions section------------------>
-        <div class="container w-75 p-0 mt-5">
+        <div class="container w-75 p-0">
             <h2 class="text-center fw-bold fs-1 text-secondary">
                 Frequently Asked Questions
             </h2>
@@ -600,7 +737,7 @@
 
         <!-- -----------------------footer section------------------------------- -->
 
-        <footer class="mt-5">
+        <footer>
             <div class="footer-section">
                 <div class="footer-half-part">
                     <p>
