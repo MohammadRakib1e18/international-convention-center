@@ -40,6 +40,20 @@ p, .accordion-body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* toast */
+.toast{
+    position: absolute;
+    top: 10%;
+    right: -15%;
+    border:0;
+    width:30%;
+    background-color: rgb(223, 221, 221);
+    border-left:5px solid rgb(15, 23, 131);
+}
+.toast img{
+    width: 20px;
+}
+
 /* --------------------------------happy client says ------------------------ */
 
 .card{
