@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 #slide1 {
     background: rgba(0, 0, 0, 0.384) url("images/banner.png");
     background-position: center;
@@ -30,4 +35,58 @@ img {
 .slider-text p {
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --------------------------------happy client says ------------------------ */
+
+.card{
+    width: 32%;
+    border: none;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+/* ----------------------------footer section------------------------------------- */
+footer {
+    background-color: #282c2f;
+    color: white;
+}
+.footer-half-part {
+    width: 45%;
+    padding: 2%;
+    margin-left: 13%;
+}
+
+.footer-section {
+    display: flex;
+}
+footer p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+footer .icon {
+    padding: 8px;
+    background-color: #857f7d3f;
+    border-radius: 50%;
+}
+.social-media i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: rgba(167, 162, 167, 0.671);
+}
+footer a {
+    text-decoration: none;
+    margin: 4px 0;
+}
+#copyright {
+    text-align: center;
+    color: rgb(236, 194, 194);
+    margin-bottom: 0;
 }
