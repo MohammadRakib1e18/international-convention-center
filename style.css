@@ -57,7 +57,7 @@ body {
 
 .carousel img {
     height: 80vh;
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     opacity: 0.9;
 }
@@ -183,6 +183,15 @@ footer a {
 
 /* Mobile media queries */
 @media screen and (max-width: 688px) {
+    .carousel img{
+        height: 50vh;
+    }
+    .slider-text h1{
+        font-size: 1.1rem;
+    }
+    .slider-text p{
+        font-size: 0.8rem;
+    }
     .toast{
         width:60%;
     }
@@ -224,6 +233,17 @@ footer a {
     }
 }
 @media screen and (min-width:689px) and (max-width:992px){
+    
+    .carousel img{
+        height: 60vh;
+    }
+    .slider-text h1{
+        font-size: 1.1rem;
+    }
+    .slider-text p{
+        font-size: 0.8rem;
+    }
+    
     .toast{
         width:50%;
     }
