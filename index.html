@@ -120,7 +120,6 @@
         <!-------------------- carousel ----------------------->
         <div
             id="carouselExampleDark"
-            
             class="
                 carousel
                 slide
@@ -496,66 +495,76 @@
             <h2 class="text-center fw-bold fs-1 text-secondary">
                 Happy Clients says
             </h2>
-            <div class="row mt-5 mx-auto justify-content-between">
-                <div class="col-md-4 card text-center shadow-lg">
-                    <div class="order-2 mb-3">
-                        <img src="images/person 1.png" alt="..." />
-                        <p class="text-center mb-0 text-secondary">Artist</p>
-                    </div>
-                    <div class="card-body order-1 text-center">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+                <div class="col">
+                    <div class="card text-center shadow-lg h-100">
+                        <div class="order-2 mb-3">
+                            <img src="images/person 1.png" alt="..." />
+                            <p class="text-center mb-0 text-secondary">
+                                Artist
+                            </p>
+                        </div>
+                        <div class="card-body order-1 text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                            </p>
+                        </div>
+                        <p class="card-footer order-3">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
                         </p>
                     </div>
-                    <p class="card-footer order-3">
-                        <small class="text-muted"
-                            >Last updated 3 mins ago</small
-                        >
-                    </p>
                 </div>
-                <div class="col-md-4 card text-center shadow-lg">
-                    <div class="order-2 mb-3">
-                        <img src="images/person 2.png" alt="..." />
-                        <p class="text-center mb-0 text-secondary">
-                            Web Developer
+                <div class="col">
+                    <div class="card text-center shadow-lg h-100">
+                        <div class="order-2 mb-3">
+                            <img src="images/person 2.png" alt="..." />
+                            <p class="text-center mb-0 text-secondary">
+                                Web Developer
+                            </p>
+                        </div>
+                        <div class="card-body order-1 text-center">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This card has supporting text below as a natural
+                                lead-in to additional content.
+                            </p>
+                        </div>
+                        <p class="card-footer order-3">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
                         </p>
                     </div>
-                    <div class="card-body order-1 text-center">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            This card has supporting text below as a natural
-                            lead-in to additional content.
-                        </p>
-                    </div>
-                    <p class="card-footer order-3">
-                        <small class="text-muted"
-                            >Last updated 3 mins ago</small
-                        >
-                    </p>
                 </div>
-                <div class="col-md-4 card text-center shadow-lg">
-                    <div class="order-2 mb-3">
-                        <img src="images/person 3.png" alt="..." />
-                        <p class="text-center mb-0 text-secondary">Singer</p>
-                    </div>
+                <div class="col">
+                    <div class="card text-center shadow-lg h-100">
+                        <div class="order-2 mb-3">
+                            <img src="images/person 3.png" alt="..." />
+                            <p class="text-center mb-0 text-secondary">
+                                Singer
+                            </p>
+                        </div>
 
-                    <div class="card-body order-1">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This card has
-                            even longer content than the first to show that
-                            equal height action.
+                        <div class="card-body order-1">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                card has even longer content than the first to
+                                show that equal height action.
+                            </p>
+                        </div>
+                        <p class="card-footer order-3">
+                            <small class="text-muted"
+                                >Last updated 3 mins ago</small
+                            >
                         </p>
                     </div>
-                    <p class="card-footer order-3">
-                        <small class="text-muted"
-                            >Last updated 3 mins ago</small
-                        >
-                    </p>
                 </div>
             </div>
         </div>
@@ -566,7 +575,10 @@
                 Frequently Asked Questions
             </h2>
             <div class="row my-5">
-                <div class="col-md-6 accordion" id="accordionExample">
+                <div
+                    class="col-md-6 accordion overflow-auto"
+                    id="accordionExample"
+                >
                     <div class="accordion-item mb-2 shadow-sm">
                         <h1 class="accordion-header" id="headingOne">
                             <button
