@@ -20,13 +20,18 @@ body {
     margin-top:10%;
 }
 
-
 .carousel{
     margin-top:2%;
 }
+.package{
+    margin-top:7%;
+}
 
-p, .accordion-body{
+.accordion-body{
     text-align: justify;
+}
+p{
+    text-align: center;
 }
 .special-package-card p{
     text-align: left;
@@ -71,7 +76,7 @@ p, .accordion-body{
     top: 0%;
     right: -15%;
     border:0;
-    width:30%;
+    width:40%;
     background-color: rgb(223, 221, 221);
 }
 .toast img{
@@ -95,13 +100,17 @@ p, .accordion-body{
 }
 
 .package-card{
-    width:24%;
     border-bottom: 2px solid rgba(46, 2, 2, 0.233);
+    height:70vh;
+    border: 2px solid red;
 }
 
 .special-package-card{
-    height: 64vh;
+    height: 70vh;
+    position: relative;
+    top:-30px;
 }
+
 .planning-btn, .planning-btn:hover{
     background-color: rgba(76, 107, 243, 0.151);
     padding: 2px;
@@ -116,6 +125,7 @@ p, .accordion-body{
 
 .card{
     border: none;
+    border: 2px solid red;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-top: 2px solid rgb(0, 0, 0);
@@ -152,6 +162,7 @@ footer {
 footer p {
     font-weight: 500;
     font-size: 15px;
+    text-align: left;
 }
 
 footer .icon {
@@ -179,7 +190,7 @@ footer a {
 /* Mobile media queries */
 @media screen and (max-width: 688px) {
     .toast{
-        width:50%;
+        width:60%;
     }
     .footer-section {
         display: flex;
@@ -189,7 +200,6 @@ footer a {
         display:flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
         width: 100%;
         margin: 0;
     }
@@ -199,5 +209,36 @@ footer a {
     }
     #copyright {
         margin-top: 20px;
+    }
+    .accordion-img{
+        order: -1;
+    }
+    .special-package-card{
+        height: 60vh;
+        position: relative;
+        top:0px;
+    }
+    .explore-btn{
+        width:60%;
+    }
+    .toast{
+        position: absolute;
+        top: -5%;
+        right: -5%;
+        width:70%;
+        background-color: rgb(223, 221, 221);
+    }
+}
+@media screen and (min-width:689px) and (max-width:992px){
+    .toast{
+        width:50%;
+    }
+    .footer-half-part{
+        margin-left: 2%;
+    }
+    .special-package-card{
+        height: 70vh;
+        position: relative;
+        top:0px;
     }
 }
