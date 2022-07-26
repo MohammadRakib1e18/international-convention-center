@@ -22,7 +22,7 @@
 
         <title>International Convention Center</title>
     </head>
-    <body>
+    <body id="home">
         <!----------------------- navbar ------------------------->
 
         <nav
@@ -30,7 +30,7 @@
             aria-label="Offcanvas navbar large"
         >
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"
+                <a class="navbar-brand" href="#home"
                     ><i class="fab fa-buffer text-warning"></i> International
                     Convention Center <i class="fab fa-buffer text-warning"></i
                 ></a>
@@ -60,26 +60,42 @@
                         >
                             <li class="nav-item">
                                 <a
-                                    class="nav-link active"
+                                    class="nav-link"
                                     aria-current="page"
-                                    href="#"
+                                    href="#home"
                                     >Home</a
                                 >
                             </li>
                             <li class="nav-item">
                                 <a
-                                    class="nav-link active"
+                                    class="nav-link"
                                     aria-current="page"
-                                    href="#"
+                                    href="#about"
                                     >About Us</a
                                 >
                             </li>
                             <li class="nav-item">
                                 <a
-                                    class="nav-link active"
+                                    class="nav-link"
                                     aria-current="page"
-                                    href="#"
-                                    >Contact</a
+                                    href="#package"
+                                    >Package</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#feedback"
+                                    >Feedback</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="#f&q"
+                                    >F<small>&</small>Q</a
                                 >
                             </li>
                         </ul>
@@ -104,6 +120,7 @@
         <!-------------------- carousel ----------------------->
         <div
             id="carouselExampleDark"
+            
             class="
                 carousel
                 slide
@@ -263,7 +280,13 @@
                 </button>
                 <!-- Toast -->
                 <div
-                    class="show toast align-items-center rounded-0"
+                    class="
+                        show
+                        toast
+                        align-items-center
+                        rounded-0
+                        border-start border-4 border-primary
+                    "
                     role="alert"
                     aria-live="assertive"
                     aria-atomic="true"
@@ -287,7 +310,7 @@
         </div>
 
         <!-- -------------------------Our Package section---------------- -->
-        <div class="container w-75 p-0 mx-auto">
+        <div class="container w-75 p-0 mx-auto" id="package">
             <h2 class="text-center fw-bold fs-1 text-secondary">Our Package</h2>
             <div class="row mt-5 justify-content-between">
                 <div class="package-card pt-5 col-md-3">
@@ -314,6 +337,18 @@
                             <i class="fas fa-check me-3"></i>Per day bill
                         </li>
                     </ul>
+                    <div
+                        class="
+                            btn
+                            planning-btn
+                            d-block
+                            w-75
+                            mx-auto
+                            text-primary
+                        "
+                    >
+                        Choose plan
+                    </div>
                 </div>
                 <div class="package-card pt-5 col-md-3">
                     <h1 class="fw-bolder fs-1">$500</h1>
@@ -338,6 +373,18 @@
                             <i class="fas fa-check me-3"></i>Billed as shift
                         </li>
                     </ul>
+                    <div
+                        class="
+                            btn
+                            planning-btn
+                            d-block
+                            w-75
+                            mx-auto
+                            text-primary
+                        "
+                    >
+                        Choose plan
+                    </div>
                 </div>
                 <div
                     class="
@@ -350,6 +397,7 @@
                         text-light
                         rounded-5
                         ps-3
+                        pt-3
                     "
                 >
                     <h1 class="fw-bolder fs-1">$800</h1>
@@ -390,6 +438,19 @@
                     >
                         Hot
                     </span>
+                    <div
+                        class="
+                            btn
+                            special-btn
+                            d-block
+                            w-75
+                            mx-auto
+                            text-primary
+                            rounded-4
+                        "
+                    >
+                        Choose plan
+                    </div>
                 </div>
                 <div class="package-card pt-5 col-md-3">
                     <h1 class="fw-bolder fs-1">$1200</h1>
@@ -414,12 +475,24 @@
                             <i class="fas fa-check me-3"></i>pay as plan
                         </li>
                     </ul>
+                    <div
+                        class="
+                            btn
+                            planning-btn
+                            d-block
+                            w-75
+                            mx-auto
+                            text-primary
+                        "
+                    >
+                        Choose plan
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- -------------------------happy client section---------------- -->
-        <div class="container w-75 p-0">
+        <div class="container w-75 p-0" id="feedback">
             <h2 class="text-center fw-bold fs-1 text-secondary">
                 Happy Clients says
             </h2>
@@ -488,7 +561,7 @@
         </div>
 
         <!------------------Frequently Asked Questions section------------------>
-        <div class="container w-75 p-0">
+        <div class="container w-75 p-0" id="f&q">
             <h2 class="text-center fw-bold fs-1 text-secondary">
                 Frequently Asked Questions
             </h2>
@@ -738,7 +811,7 @@
         <!-- -----------------------footer section------------------------------- -->
 
         <footer>
-            <div class="footer-section">
+            <div class="footer-section" id="about">
                 <div class="footer-half-part">
                     <p>
                         <i class="icon fas fa-map-marker-alt"></i> Gazipur,
