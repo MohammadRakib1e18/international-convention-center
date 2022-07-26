@@ -1,3 +1,4 @@
+/* stylesheet is not organized */
 body {
     margin: 0;
     padding: 0;
@@ -30,12 +31,8 @@ body {
 .accordion-body{
     text-align: justify;
 }
-p{
-    text-align: center;
-}
-.special-package-card p{
-    text-align: left;
-}
+
+
 #slide1 {
     background: rgba(0, 0, 0, 0.384) url("images/banner.png");
     background-position: center;
@@ -99,14 +96,8 @@ p{
     font-size:12px;
 }
 
-.package-card{
-    border-bottom: 2px solid rgba(46, 2, 2, 0.233);
-    height:70vh;
-    border: 2px solid red;
-}
 
 .special-package-card{
-    height: 70vh;
     position: relative;
     top:-30px;
 }
@@ -125,7 +116,6 @@ p{
 
 .card{
     border: none;
-    border: 2px solid red;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     border-top: 2px solid rgb(0, 0, 0);
@@ -185,6 +175,10 @@ footer a {
     margin-bottom: 0;
 }
 
+.badge{
+    z-index: 100;
+}
+
 /* ========================-<Media Quries>-=========================== */
 
 /* Mobile media queries */
@@ -237,7 +231,6 @@ footer a {
         margin-left: 2%;
     }
     .special-package-card{
-        height: 70vh;
         position: relative;
         top:0px;
     }
